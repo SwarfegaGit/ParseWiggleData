@@ -41,7 +41,7 @@ function ParseWiggleData {
 
 }
 ````
-This above will create a new function called ParseWiggleData which can be used to scrape/parse items on wiggle.co.uk.  Example:
+This above will create a new function called ParseWiggleData which can be used to scrape/parse items on wiggle.co.uk.  First off, browse to the item you wish to parse in your web browser.  Copy the URL and use it with the Uri property in PowerShell.  Example:
 
 ````powershell
 PS C:\Users> ParseWiggleData -Uri 'https://www.wiggle.co.uk/dhb-windproof-cycling-gloves'
