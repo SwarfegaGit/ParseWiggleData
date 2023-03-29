@@ -44,7 +44,50 @@ function ParseWiggleData {
 This above will create a new function called ParseWiggleData which can be used to scrape/parse items on wiggle.co.uk.  Example:
 
 ````powershell
-ParseWiggleData -Uri 'https://www.wiggle.co.uk/dhb-windproof-cycling-gloves'
+PS C:\Users> ParseWiggleData -Uri 'https://www.wiggle.co.uk/dhb-windproof-cycling-gloves'
+                                                                                                                        
+Name            : Windproof Cycling Gloves
+Manufacturer    : dhb
+Category        : Gloves
+Colour          : Black
+Size            : Large
+InStock         : True
+UnitPrice       : 32
+UnitSalePrice   : 16
+DiscountPercent : 50
+
+Name            : Windproof Cycling Gloves
+Manufacturer    : dhb
+Category        : Gloves
+Colour          : Black
+Size            : Medium
+InStock         : True
+UnitPrice       : 32
+UnitSalePrice   : 16
+DiscountPercent : 50
+
+Name            : Windproof Cycling Gloves
+Manufacturer    : dhb
+Category        : Gloves
+Colour          : Black
+Size            : Small
+InStock         : True
+UnitPrice       : 32
+UnitSalePrice   : 16
+DiscountPercent : 50
+
+Name            : Windproof Cycling Gloves
+Manufacturer    : dhb
+Category        : Gloves
+Colour          : Black
+Size            : X Small
+InStock         : True
+UnitPrice       : 32
+UnitSalePrice   : 16
+DiscountPercent : 50
+
+
+PS C:\Users>
 ````
 
 If you are using Windows you can use Out-GridView to create an Excel like GUI output which makes viewing this data easier.  Example:
